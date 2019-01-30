@@ -80,7 +80,7 @@ folder that contains the output file.
 As an example I included in this repository of an actual session I shadowed at 2U (the names of all faculty and students have been changed to protect their privacy).
 My command to the program was:
 
-george washington university both in/saved_chat_example.csv out
+    george washington university both in/saved_chat_example.csv out
 
 This tells the program to show both private and public messages made by "george washington university," which is me, and sort them by time.
 
