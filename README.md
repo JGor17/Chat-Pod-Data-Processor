@@ -1,21 +1,21 @@
 # MapReduceZoomChat
-using Hadoop to implement a MapReduce solution to sorting and organizing the chat pod of a zoom meeting
+##using Hadoop to implement a MapReduce solution to sorting and organizing the chat pod of a zoom meeting
 
 
 
-bin: Contains class files necessary to run the program
-in: Folder that contains the csv file which is the file that contains all posts from the Zoom session
-out: Output folder that contains the output file once the program is finished
-src: Contains java files that implement the MapReduce solution:
-    Main.java: Main class of the program. Takes in arguments upon building and runs the Hadoop job
-    Parameter.java: Contains all enumerated constants. They are parameters that can be expected to be entered at Main
-    Post.java: Instances of this class are Posts. Posts contain information such as:
+**bin:** Contains class files necessary to run the program
+**in:** Folder that contains the csv file which is the file that contains all posts from the Zoom session
+**out:** Output folder that contains the output file once the program is finished
+**src:** Contains java files that implement the MapReduce solution:
+    **Main.java:** Main class of the program. Takes in arguments upon building and runs the Hadoop job
+    **Parameter.java:** Contains all enumerated constants. They are parameters that can be expected to be entered at Main
+    **Post.java:** Instances of this class are Posts. Posts contain information such as:
         The time of its post, the user who posted it, the recipiant of the post, its visibility to other people, and the content of the post
-    PostSort: Algorithm that contains the mapper and the reducer for the MapReduce framework. Creates a post for each incoming csv line
+    **PostSort:** Algorithm that contains the mapper and the reducer for the MapReduce framework. Creates a post for each incoming csv line
         and produces an output result to the "out" folder depending on which command was entered.
         
        
-Background: 
+######Background: 
 
 This project was created by me during my time spent as an intern at 2U, which is an online service that partners with universities
 to provide online classes through the use of LMS's and Zoom, which is a video conferencing platform in which professors can have live lectures with
@@ -25,17 +25,22 @@ for self-reflection. Looking at these files was tiresome and I wondered if there
 could speed up the time needed to look at certain posts and conversations that happened in the session I just attended. The solution was to
 use Hadoop. That way, I can speed up the time necessary for self-reflection in between sessions so that I can improve myself for next time.
 
-Brief Summary:
+
+
+######Brief Summary:
+
 This program takes advantage of parallelism to sort given key value pairs as input. It takes a csv file as input and produces an output file that
 is sorted. It has a few commands that are usefull for sorting and organizing the input file:
 
-user in out: This tells the program to sort all the posts by user
-time in out: Tells the program to sort all the posts by time
-private in out: Display only private messages and sort them by time
-public in out: Display only public messages and sort them by time
-"name" private/public/both in out: Display only posts made by this user and sort them by time. These posts can be private, public, or both
+**user in out:** This tells the program to sort all the posts by user
+**time in out:** Tells the program to sort all the posts by time
+**private in out:** Display only private messages and sort them by time
+**public in out:** Display only public messages and sort them by time
+**"name" private/public/both in out:** Display only posts made by this user and sort them by time. These posts can be private, public, or both
 
-Directions:
+
+
+######Directions:
 
 (This program runs on the most current version of Java and Eclipse)
 
