@@ -1,5 +1,5 @@
 # MapReduceZoomChat
-#using Hadoop to implement a MapReduce solution to sorting and organizing the chat pod of a zoom meeting
+# using Hadoop to implement a MapReduce solution to sorting and organizing the chat pod of a zoom meeting
 
 
 
@@ -15,7 +15,7 @@
         and produces an output result to the "out" folder depending on which command was entered.
         
        
-######Background: 
+###### Background: 
 
 This project was created by me during my time spent as an intern at 2U, which is an online service that partners with universities
 to provide online classes through the use of LMS's and Zoom, which is a video conferencing platform in which professors can have live lectures with
@@ -27,7 +27,7 @@ use Hadoop. That way, I can speed up the time necessary for self-reflection in b
 
 
 
-######Brief Summary:
+###### Brief Summary:
 
 This program takes advantage of parallelism to sort given key value pairs as input. It takes a csv file as input and produces an output file that
 is sorted. It has a few commands that are usefull for sorting and organizing the input file:
@@ -44,7 +44,7 @@ is sorted. It has a few commands that are usefull for sorting and organizing the
 
 
 
-######Directions:
+###### Directions:
 
 (This program runs on the most current version of Java and Eclipse)
 
