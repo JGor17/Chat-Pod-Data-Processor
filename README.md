@@ -12,10 +12,13 @@
 **src:** Contains java files that implement the MapReduce solution:
 
     Main.java: Main class of the program. Takes in arguments upon building and runs the Hadoop job
+    
     Parameter.java: Contains all enumerated constants. They are parameters that can be expected to be entered at Main
-    Post.java: Instances of this class are Posts. Posts contain information such as the time of its post, the user who posted it, the recipiant of the post, its visibility to other people, and the content of the post
+    
+    Post.java: Instances of this class are Posts. Posts contain information such as the time of its post, the user who posted it, the                  recipiant of the post, its visibility to other people, and the content of the post
+    
     PostSort: Algorithm that contains the mapper and the reducer for the MapReduce framework. Creates a post for each incoming csv line
-        and produces an output result to the "out" folder depending on which command was entered.
+              and produces an output result to the "out" folder depending on which command was entered.
         
        
 ###### Background: 
