@@ -1,12 +1,16 @@
 # MapReduceZoomChat
-# using Hadoop to implement a MapReduce solution to sorting and organizing the chat pod of a zoom meeting
+## using Hadoop to implement a MapReduce solution to sorting and organizing the chat pod of a zoom meeting
 
 
 
 **bin:** Contains class files necessary to run the program
+
 **in:** Folder that contains the csv file which is the file that contains all posts from the Zoom session
+
 **out:** Output folder that contains the output file once the program is finished
+
 **src:** Contains java files that implement the MapReduce solution:
+
     **Main.java:** Main class of the program. Takes in arguments upon building and runs the Hadoop job
     **Parameter.java:** Contains all enumerated constants. They are parameters that can be expected to be entered at Main
     **Post.java:** Instances of this class are Posts. Posts contain information such as:
