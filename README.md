@@ -1,5 +1,5 @@
 # MapReduceZoomChat
-##using Hadoop to implement a MapReduce solution to sorting and organizing the chat pod of a zoom meeting
+#using Hadoop to implement a MapReduce solution to sorting and organizing the chat pod of a zoom meeting
 
 
 
@@ -33,9 +33,13 @@ This program takes advantage of parallelism to sort given key value pairs as inp
 is sorted. It has a few commands that are usefull for sorting and organizing the input file:
 
 **user in out:** This tells the program to sort all the posts by user
+
 **time in out:** Tells the program to sort all the posts by time
+
 **private in out:** Display only private messages and sort them by time
+
 **public in out:** Display only public messages and sort them by time
+
 **"name" private/public/both in out:** Display only posts made by this user and sort them by time. These posts can be private, public, or both
 
 
