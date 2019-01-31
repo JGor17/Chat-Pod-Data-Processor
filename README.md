@@ -85,6 +85,7 @@ My command to the program was:
 This tells the program to show both private and public messages made by "me" which is me, and sort them by time.
 (dashed lines represent information that I censored to protect the privacy of these individuals)
 
+**Note:** When rerunning the program, make sure to delete the "out" before running the program again.
 
 
 
