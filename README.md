@@ -28,10 +28,10 @@
 This project was created by me during my time spent as an intern at 2U, which is an online service that partners with universities
 to provide online classes through the use of LMS's and Zoom, which is a video conferencing platform in which professors can have live lectures with
 their students. Most of my work involved helping students and faculty with tech-related issues and most of my interactions with them involved posts
-using the chat pod on Zoom. Once I leave the session, I get a copy of the entire chat history sent to my Downloads folder so that I could look at it
-for self-reflection. Looking at these files was tiresome and I wondered if there was a better way to sort and organize each post so that I
+using the chat pod on Zoom. Once I leave the session, I get a copy of the entire chat history sent to my Downloads folder so that I can look at it
+for self-reflection, but most importantly to perform the function of creating cases while filing my CTO for the session, which is an exhaustive process that entails me to constantly refer back to the chat while filling out my CTO. Doing this was tiresome and I wondered if there was a better way to sort and organize each post so that I
 could speed up the time needed to look at certain posts and conversations that happened in the session I just attended. The solution was to
-use Hadoop. That way, I can speed up the time necessary for self-reflection in between sessions so that I can improve myself for next time.
+use Hadoop. That way, I can speed up the time necessary for filling out my CTO's in between sessions.
 
 
 
