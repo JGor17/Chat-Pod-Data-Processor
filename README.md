@@ -1,4 +1,4 @@
-# MapReduceZoomChat
+# Chat Pod Data Processor
 ## using Hadoop to optimize workflow at my internship with 2U
 
 
